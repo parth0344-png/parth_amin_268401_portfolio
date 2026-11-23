@@ -57,7 +57,7 @@ git clone https://github.com/parth0344-png/parth_amin_2604842001_portfolio.git
 **2. Navigate to the project directory**
 
 ```bash
-cd parth_amin_2604842001_portfolio
+cd parth_amin_268401_portfolio
 ```
 
 **3. Open the project**

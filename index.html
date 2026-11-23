@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <!-- box-icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- font awesome cdnjs  link -->
+    <link rel="stylesheet" href="https://cdnjs.coloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"> 
+
+    <!-- /css file link -->
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+    <!-- header design -->
+    <header class="header">
+    
+        <a href="#" class="logo">PA</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#Skill">Skill</a>
+            <a href="#Contact">Contact +91 8128320814</a>
+        </nav>
+    </header>
+
+    <!-- home section design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello,It's Me</h3>
+            <h1>Parth Amin</h1>
+            <h3>And I'm a <span>Web Developer</span></h3>
+            <p>I am a Diploma student . I am interested to do competitive programming.</p>
+            <div class="social-media">
+                <a href="#"><i class='bx bxl-github'></i></a>
+                <a href="https://www.instagram.com/_parth_amin_0344/"
+                    target="_blank"><i class='bx bxl-instagram-alt'></i></a>
+            </div>
+        </div>
+        <div class="home-img">
+            <img src="Imges/parth2.jpg" alt="">
+        </div>
+
+    </section>
+
+    <!-- ABout section -->
+    <section class="about" id="about">
+        <div class="Imges/about-img">
+            <img src="WhatsApp Image 2024-07-02 at 14.20.12_61f58015.jpg" height="500" width="300" alt="">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span> Me </span></h2>
+            <h3>Web developer</h3>
+            <p>I am a beginner developer looking for opportunities to expand my skills on higher level . I have
+                knowledge of HTML, CSS, and JavaScript, and I am committed to improving my proficiency in these
+                technolgical filed.</p>
+            <p>If you are looking for a good  Web developer, I am available for work
+                opportunities and excited to contribute to projects that allow me to expand my experience.
+            </p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+
+    </section>
+
+    <!-- section  Skill-->
+
+    <section class="Skill" id="Skill">
+        <h2 class="heading"> My <span> Skills</span></h2>
+        <div class="skill-container">
+            <div class="skill-box">
+                <h3>Programing Langauage</h3>
+                <p>C Langauage</p>
+                <p>C++ Langauage</p>
+                <p>Basic Java </p>
+                <p>JavaScript </p>
+                <p>python</p>
+            
+            </div>
+
+            <div class="skill-box">
+                <h3>Course Work</h3>
+                <p>Object Oriented programming Langauage(OOPS)</p>
+                <p>Data Base Management System(DBMS)</p>
+                <p>Computer Networking(CN)</p>
+            </div>
+
+            <div class="skill-box">
+                <h3>web Development</h3>
+                <p>Html</p>
+                <p>Css</p>
+                <p>bootstrap</p>
+                <P>JavaScript</P>
+                <p>Github</p>
+            </div>
+
+            <div class="skill-box">
+                <h3>Certification</h3>
+                <p>Web Development, <span>Royal Technosoft P Limited</span></p>
+                <p>C programming ,<span>Study section</span></p>
+                <p>C programming, <span>Royal Technosoft P Limited</span></p>
+                <p>C++ programming, <span>Royal Technosoft P Limited</span></p>
+                <p>HTML, <span>Royal Technosoft P Limited</span></p>
+                <p>CSS programming, <span>Royal Technosoft P Limited</span></p>
+                <p>Basic unity game Development, <span>Royal Technosoft P Limited</span></p>
+
+            </div>
+
+        </div>
+    </section>
+
+    
+    
+
+
+    <!-- contact section -->
+    <section class="Contact" id="Contact">
+        <h2 class="heading">Contact<span> Me!</span></h2>
+
+        <form action="#">
+
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+
+            <div class="input-box">
+                <input type="tel" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="Submit" value="send Message" class="btn">
+
+        </form>
+    </section>
+    <!-- footer design -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p> Copyright &copy; 2024 by Parth Amin | All Rights Reserved.</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+
+
+    <!-- scroll revel -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- javascript -->
+    <script src="/Portfolio/script.js"></script>
+
+    <script>
+        function myFunction() {
+            document.getElementById("nav-exp").href = "#smallRoadmap";
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 240,
+            duration: 1000
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+               jQuery.fn.carousel.Constructor.TRANSITION_DURATION = 10000  // 2 seconds
+        });
+    </script>
+    <script src="script.js"></script>
+</body>
+
+</body>
+
+</html>
